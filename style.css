@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 :root{
-    --cor-de-fundo:#424242;
+    --cor-de-fundo:#001F3F;
     --cor-primaria: #F5F5F5;
-    --cor-segundaria:#229799;
+    --cor-segundaria:#3A6D8C;
     --fonte:  "Merriweather", serif; 
 }
 *{
@@ -13,4 +13,31 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-primaria);
     font-family: var(--fonte);
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    color: var(--cor-de-fundo);
+    height: 700;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: transform 1s;
 }
