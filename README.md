@@ -1,1 +1,2 @@
-# Daniel3j-2projeto
+# Projeto 3_Tri
+Maria Gabriela N 27
